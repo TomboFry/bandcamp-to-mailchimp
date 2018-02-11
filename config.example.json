@@ -1,0 +1,10 @@
+{
+	"mcapi": "<YOUR MAILCHIMP API KEY>",
+	"mclist": "<YOUR MAILCHIMP LIST>",
+	"bandcampuser": "<BANDCAMP USERNAME>",
+	"port": 8080,
+	"enablehttplog": true,
+	"authuser": "",
+	"authpassword": ""
+}
+

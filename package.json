@@ -1,19 +1,19 @@
 {
-  "name": "email",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "forever": "^0.15.3",
-    "http": "0.0.0",
-    "http-auth": "^3.2.3",
-    "mailchimp-api-v3": "^1.7.0",
-    "mailin": "^3.0.4",
-    "winston": "^2.3.1"
-  }
+	"name": "bandcamp-to-mailchimp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "./node_modules/.bin/forever start index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"forever": "^0.15.3",
+		"http-auth": "^3.2.3",
+		"mailchimp-api-v3": "^1.7.0",
+		"mailin": "^3.0.4",
+		"winston": "^2.3.1"
+	}
 }
